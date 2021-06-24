@@ -1,0 +1,51 @@
+/**************************************************************/
+
+
+/* Folha de estilo para o jogo da velha                       */
+
+
+/**************************************************************/
+
+
+/* Autor: Vagner Renato Bellacosa                             */
+
+
+/* baseado no programa original de Joel Rodrigues             */
+
+
+/* 2021-06-23                                                 */
+
+
+/* Campinas - SP                                              */
+
+
+/**************************************************************/
+
+#jogo {
+    width: 603px;
+    height: 600px;
+    border: solid 3px;
+}
+
+.linha {
+    height: 200px;
+    border-bottom: solid 1px;
+}
+
+.casa {
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    margin-top: 2rem;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
